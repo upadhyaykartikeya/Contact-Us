@@ -7,9 +7,9 @@ import { useState } from "react";
 
 const ContactForm = () => {
 
-  const [name, setName] = useState("Kartik");
-  const [email, setEmail] = useState("support@gmail.com");
-  const [text, setText] = useState("nothing");
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [text, setText] = useState("");
 
   const onSubmit = (event) => {
     event.preventDefault();
